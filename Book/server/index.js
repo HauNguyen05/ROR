@@ -20,8 +20,7 @@ var diskStorage = multer.diskStorage({
     var filename = `${file.originalname}`;
     callback(null, filename);
   }
-});
-app.use(express.urlencoded({ extended: false }))
+}); 
 
 // Khởi tạo middleware uploadFile với cấu hình như ở trên,
 // Bên trong hàm .single() truyền vào name của thẻ input, ở đây là "file"
@@ -41,20 +40,14 @@ app.post("/upload", (req, res) => {
   });
 });
  
-app.listen(3000, "localhost", () => {
-  console.log(`Hello, I'm running at localhost:3000`);
+app.listen(4000, "localhost", () => {
+  console.log(`Hello, I'm running at localhost:4000`);
 });
- 
-//   app.get('/', function (req, res) {
-//     // res.sendFile('view/index.html', { root: __dirname });
-// res.sendfile('../src/index.html')
-//   })
+  
 app.get('/', (req,res)=> res.send('HELLO'))
   //lets require/import the mongodb native drivers.
 var mongoose = require('mongoose');
-
-//Nhập mô-đun mongoose
-var mongoose = require('mongoose');
+ 
 
 //Thiết lập một kết nối mongoose mặc định
 var mongoDB = 'mongodb://127.0.0.1/book';
