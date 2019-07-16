@@ -1,0 +1,122 @@
+.form-detail {
+  padding-top: 20px;
+  display: flex; 
+}
+
+.form-detail .control-custom {
+  font-size: 18px;
+  color: #868686;
+  width: 97%;
+}
+
+.form-detail .group { 
+  position: relative;
+}
+
+.form-detail input {
+  display: block;
+  padding: 10px 35px;
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+  margin-top: 26px;
+  font-size: 18px;
+}
+.container {
+  background-color: aliceblue;
+  width: 35%;
+  left: 33%;
+  position: absolute;
+  top: 3%;
+} 
+.form-detail label {
+  font-size: 18px;
+  color: #868686;
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  top: 16px;
+}
+
+input:focus, 
+textarea:focus {
+  outline: none;
+  border: 1px solid black;
+}
+
+.form-detail .bar { 
+  position: relative; 
+  display: block; 
+  width: 97%; 
+}
+
+.bar::before,
+.bar::after {
+  content:'';
+  height: 2px; 
+  width: 0;
+  bottom: 1px; 
+  position: absolute;
+  background: #2cb680; 
+  transition: 0.2s ease all; 
+  -moz-transition: 0.2s ease all; 
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar::before {
+  left:50%;
+}
+
+.bar::after {
+  right:50%; 
+}
+
+.form-detail input:focus ~ .bar::before,
+.form-detail input:focus ~ .bar::after,
+.form-detail textarea:focus ~ .bar::before,
+.form-detail textarea:focus ~ .bar::after {
+  width:50%;
+}
+.bar::before,
+.bar::after {
+  content:'';
+  height: 2px; 
+  width: 0;
+  bottom: 1px; 
+  position: absolute;
+  background: #2cb680; 
+  transition: 0.2s ease all; 
+  -moz-transition: 0.2s ease all; 
+  -webkit-transition: 0.2s ease all;
+}
+.form-detail input:focus ~ .bar::before,
+.form-detail input:focus ~ .bar::after,
+.form-detail textarea:focus ~ .bar::before,
+.form-detail textarea:focus ~ .bar::after {
+  width:50%;
+}
+
+.form-button {
+  margin-top: 20px; 
+  font-size: 18px;
+}
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  font-size: 20px;
+}
+button{ 
+  font-size:18px;
+}
+h1{
+  color:#10707f;
+  text-align: center;
+}
+p{
+  color: red;
+  display: block;
+  padding: 0px 15px;
+  border: none; 
+  margin-top: 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,29 @@
+<main class="main-content">
+    <div class="inner-page-heading index-search" style="padding-top: 129.5px; padding-bottom: 388.5px;">
+        <div class="container">
+            <div class="inner-page-heading h-white">
+                <h2>Search for <span class="hl"><i class="count">27,857</i></span> eBooks. All available for download.
+                </h2>
+                <form method="get" id="searchform" class="row" action="//libit.io/">
+                    <div class="col-md-12 search-wrap"><input type="text" class="search-field"
+                            placeholder="Enter your eBook name, keywords, ISBN,..." name="s" data-swplive="true"
+                            data-swpengine="default" data-swpconfig="default" id="s" autocomplete="off"
+                            aria-describedby="searchwp_live_search_results_5d2d67d64bb43_instructions"
+                            aria-owns="searchwp_live_search_results_5d2d67d64bb43" aria-expanded="false"
+                            aria-autocomplete="both" aria-activedescendant="">
+
+                        <button class="search-submit"></button>
+                    </div>
+                </form>
+                <div class="fav-tags row">
+                    <div class="col-md-12">
+                        <small>Top favorite Keyworks: </small><br> 
+                        <span  *ngFor="let key of key">
+                                <a class="toptags inline" href="{{key.href}}"> #{{key.name}}</a> 
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

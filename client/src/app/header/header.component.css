@@ -1,0 +1,30 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.online-option ul li {
+    float: left;
+}
+.online-option ul li a {
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    float: left;
+    line-height: 28px;
+}
+a {
+    color: #555;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+} 
+#dates .selected,.action-text h3 span,.add-cart-alert p i,.address-column h6,.address-list li i,.address-list.style-2 ul li i,.arthor-list-img .overlay a,.author-p-detail ul li h6 i,.availability strong,.back-top i,.blog-style-1 .post-box .text-column em i,.blog-style-1.style-2 .post-box .text-column span,.book-list-detail strong,.books-post-widget span,.bx-wrapper .bx-controls-direction a:hover,.caption.style-1 p,.caption.style-2 h1 span,.cart-option ul li a:hover,.comment h6,.date i,.description .check-list li::before,.error-heading h2 span,.event-img .overlay a,.event-organizar.style-1 span i,.facts-list ul li i,.footer-column h4,.footer-links li a:hover,.meta-post li i,.mission-disc h4 span,.navigation li a:hover,.navigation li a:hover i,.navigation ul li ul li .mega-dropdown a:hover,.offer-price del,.online-option ul li a:hover,.pagination-holder ul li a:hover,.pagination-holder ul li.active a,.product-thumnbnail .bx-wrapper ul li .expand,.quick-view .prics .now,.rating-nd-price strong,.recomend-slider .owl-next:hover,.recomend-slider .owl-prev:hover,.related-products h5 span,.release-book-detail span,.s-arthor-detail,.s-arthor-detail>a,.s-product-hover .btn-1,.s-product-hover ul li a,.single-blog-detail blockquote,.switcher h2 a,.terms a,.theme-color,a:hover{
+	color:#ff851d
+}
+#dates .selected::before,.add-cart a span,.address-column:hover .address-icon,.best-sellers-tabs .tabs-nav li.ui-tabs-active a,.btn-1,.disc-reviews-tabs .tabs-nav ul li.ui-tabs-active a,.filter-tags-holder ul li a.selected,.gallery-figure .overlay ul li a:hover,.nav-holder.style-2 .add-to-cart .btn-1 i em,.navigation ul li ul li a::before,.plus-icon,.pricing-slider .ui-slider .ui-slider-range,.product-cart-option li a:hover,.product-img .sale-bacth,.progress-rating .progress-bar,.s-product-hover ul li a:hover,.search-bar .sub-btn:hover,.service-column:hover .service-icon,.sidebar ul li.ui-state-active::before,.social-icons ul li a:hover,.tags-list li a:hover{
+	background:#ff851d
+}
+.add-cart-alert,.authors-filter ul li a.selected::before,.gallery-figure .overlay ul li a:hover,.navigation ul li a::before,.navigation ul li>ul,.pagination-holder ul li.active a,.sec-heading::before,.social-icons ul li a:hover,.tags-list li a:hover{
+	border-color:#ff851d
+}

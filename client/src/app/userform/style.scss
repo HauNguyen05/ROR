@@ -1,0 +1,43 @@
+.form-control{
+    padding-top: 20px;
+    display: flex;
+    .control-custom {
+        font-size: 18px;
+        color: #868686;
+        width: 97%;
+    }
+    .group { 
+        position: relative;
+    }
+    input {
+        display: block;
+        padding: 10px 30px; 
+        border-bottom: 1px solid #d8d8d8;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}
+.icon{
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    font-size: 20px;
+  }
+  $blue:#10707f;
+  h1{
+    text-align:center; margin-top: 3%; 
+    color:$blue;
+  }
+  
+  .container{
+    background-color: aliceblue;
+    width:35%;
+    left: 33%;
+    position: absolute;
+    top: 5%;
+}
+.form-button {
+    margin-top: 20px; 
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,25 @@
+ 
+<form [formGroup]="formSubmit" (submit)="onClickSubmit(formSubmit.value)" class="container"> 
+    <h1> Information of Book</h1>
+    <div class="form-detail ">
+        <div class="form-info col-md-12">
+            <div class="group" *ngFor="let info of bookinfo">
+                <i class="{{info.icon}} icon" aria-hidden="true"></i>
+                <input class="control-custom" type="text" placeholder="{{info.placeholder}}" required name="{{info.name}}"
+                    [(ngModel)]="bookinfo[info.name]" formControlName="{{info.name}}" />
+                <span class="bar"></span>
+                <div *ngIf="formSubmit.controls[info.name].invalid && (formSubmit.controls[info.name].drity || formSubmit.controls[info.name].touched)">
+                    <p *ngIf="formSubmit.controls[info.name].errors.required">{{info.placeholder}} is required</p>
+                    <p *ngIf="formSubmit.controls[info.name].errors.minlength">{{info.placeholder}} is too short</p>
+                    <p *ngIf="formSubmit.controls[info.name].errors.maxlength">{{info.placeholder}} is too long</p>
+                    <p *ngIf="formSubmit.controls[info.name].errors.pattern  ">{{info.placeholder}} only include alphabet </p> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="form-button text-center">
+        <button class="btn btn-info" type="submit"  >Submit</button>
+    </div>
+</form>
