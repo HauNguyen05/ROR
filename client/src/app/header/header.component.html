@@ -1,6 +1,6 @@
 <div class="topbar">
     <div class="container">
-        <div class="online-option pull-right">
+        <div class="online-option online-respon pull-right">
             <ul id="menu-top-menu" class="menu">
                 <li id="menu-item-27871"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-27871"><a
@@ -27,18 +27,19 @@
 <nav class="nav-holder style-1">
     <div class="container">
         <div class="mega-dropdown-wrapper">
-            <div class="logo">
+            <div class="logo logo1">
                 <a title="Infomation Technology Library" href="../../index.html">
                     <img src="../../assets/image/logo.png" width="180" alt="Infomation Technology Library"
                         data-lazy-src="//libit.io/wp-content/themes/libitIO/images/logo.png" class="lazyloaded"
                         data-was-processed="true">
                 </a>
             </div>
-            <div class="responsive-btn"> <a href="#menu" class="menu-link circle-btn"><i class="fa fa-bars"></i></a>
+            <div class="responsive responsive-btn"> <a id="menu" href="#menu" class="menu-link circle-btn" (click)="menuShow()"><i
+                        class="fa fa-bars"></i></a>
             </div>
-            <div class="navigation">
+            <div class="navigation navi-responsive" id="nav-menu">
                 <ul>
-                    <li class="dropdown-icon mega-dropdown-holder"> <a href="#" title="Categories"><i
+                    <li class="dropdown-icon mega-dropdown-holder "> <a href="#" title="Categories"><i
                                 class="fa fa-book"></i>Categories</a>
                         <ul>
                             <li>
@@ -56,9 +57,9 @@
                                                     ({{cato.quantity}}) </a>
                                             </div>
                                         </div>
-                                        <div class="col-sm-3">
+                                        <!-- <div class="col-sm-3">
                                             <div class="categories-list"></div>
-                                        </div>
+                                        </div>               -->
                                         <div class="col-sm-6">
                                             <div class="row">
                                                 <div class="col-sm-3">

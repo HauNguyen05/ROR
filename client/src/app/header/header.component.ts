@@ -95,4 +95,22 @@ export class HeaderComponent implements OnInit {
     {title:"deploy", href:"#", quantity:"1941"},
     {title:"dom", href:"#", quantity:"1889"}, 
   ]
+
+  total: any[] = this.tags1.concat(this.tags2, this.tags3, this.tags4)
+  catogary:any[]=this.Categories1.concat(this.Categories2)
+
+
+  menuShow(){ 
+    const menu = document.getElementById("menu")  
+    const navMenu = document.getElementById('nav-menu') 
+
+    menu.addEventListener('click', () => {
+      // console.log('ok')
+      if (navMenu.style.display == 'none') {
+        navMenu.style.display = 'block'
+      } else {
+        navMenu.style.display = 'none'
+      }
+    })
+  }
 }

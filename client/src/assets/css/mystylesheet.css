@@ -1,0 +1,252 @@
+/* ----------- iPhone 6/7/8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .inner-page-heading.inner-page-heading.inner-page-heading {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 25px;
+  }
+    .mega-dropdown{
+      display: none;
+    }
+    .responsive-btn {
+      display: block;
+      right: 0;
+      top: 30px;
+      font-size: 25px;
+    }
+    .navigation{
+      display: none;
+
+    }
+    .navi-responsive{  
+      top: 56px;
+      background-color: antiquewhite; 
+      text-align: center;
+      position: absolute;
+      right: 0%;;
+      float: none;
+    }
+    .navi-responsive ul li{
+      float: none;
+      margin: 5px;
+      padding-left: 5px;
+    }
+    .navi-responsive.navi-responsive.navi-responsive i{
+      top: 10px;
+      left: 15px;
+    } 
+    .navi-responsive.navi-responsive.navi-responsive a{
+      padding: 10px 30px;
+    }
+    .navi-responsive.navi-responsive.navi-responsive li::before {
+      content: unset;
+    }
+    div.sharedaddy h3.sd-title {
+      margin: 0;
+      display: inline-block;
+      line-height: 1.2;
+      font-size: 20px;
+      font-weight: 700;
+    } 
+    .vote-respon.vote-responrespon.vote-respon {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+    }
+    .book-detail.book-detail.book-detail{
+      padding-top: 25px;
+    }
+    .btn-list.btn-list.btn-list li{
+      margin: 5px 5px;
+    }
+    .navigation ul li.dropdown-icon>a::after{
+      content: unset;
+    }  
+  }
+  
+  /* Portrait */
+  @media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .inner-page-heading.inner-page-heading.inner-page-heading {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 25px;
+  }
+    .mega-dropdown{
+      display: none;
+    }
+    .responsive-btn {
+      display: block;
+      right: 0;
+      top: 30px;
+      font-size: 25px;
+    }
+    .navigation{
+      display: none;
+
+    }
+    .navi-responsive{  
+      top: 56px;
+      background-color: antiquewhite; 
+      text-align: center;
+      position: absolute;
+      right: 0%;;
+      float: none;
+    }
+    .navi-responsive ul li{
+      float: none;
+      margin: 5px;
+      padding-left: 5px;
+    }
+    .navi-responsive.navi-responsive.navi-responsive i{
+      top: 10px;
+      left: 15px;
+    } 
+    .navi-responsive.navi-responsive.navi-responsive a{
+      padding: 10px 30px;
+    }
+    .navi-responsive.navi-responsive.navi-responsive li::before {
+      content: unset;
+    }
+    div.sharedaddy h3.sd-title {
+      margin: 0;
+      display: inline-block;
+      line-height: 1.2;
+      font-size: 20px;
+      font-weight: 700;
+    } 
+    .vote-respon.vote-responrespon.vote-respon {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+    }
+    .book-detail.book-detail.book-detail{
+      padding-top: 25px;
+    }
+    .btn-list.btn-list.btn-list li{
+      margin: 5px 5px;
+    }
+    .navigation ul li.dropdown-icon>a::after{
+      content: unset;
+    } 
+  }
+  
+  /* Landscape */
+  @media only screen
+  and (min-device-width: 736px) 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .inner-page-heading.inner-page-heading.inner-page-heading {
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 25px;
+  }
+  }
+   
+  /* ----------- Galaxy S5 ----------- */
+  
+  /* Portrait and Landscape */
+  @media screen
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .inner-page-heading.inner-page-heading.inner-page-heading {
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+    .mega-dropdown{
+      display: none;
+    }
+    .navigation ul li.dropdown-icon>a::after{
+      content: unset;
+    }
+
+    .btn-list.btn-list.btn-list li{
+      margin: 5px 5px;
+    }
+    .btn-list.btn-list.btn-list {
+      margin: 10px 0 25px;
+    }
+
+    .btn-1.btn-1.btn-1{
+      padding: 0px 10px;
+    }
+    div.sharedaddy h3.sd-title {
+      margin: 0;
+      display: inline-block;
+      line-height: 1.2;
+      font-size: 20px;
+      font-weight: 700;
+    } 
+    .online-respon.online-respon.online-respon a{
+      font-size: 10px;
+    }
+    .responsive-btn {
+      display: block;
+      right: 0;
+      top: 35px;
+      font-size: 25px;
+    }
+    .navigation{
+      display: none;
+
+    }
+    .navi-responsive{  
+      top: 56px;
+      background-color: antiquewhite; 
+      text-align: center;
+      position: absolute;
+      right: 0%;;
+      float: none;
+    }
+    .navi-responsive ul li{
+      float: none;
+      margin: 5px;
+      padding-left: 5px;
+    }
+    .navi-responsive.navi-responsive.navi-responsive i{
+      top: 10px;
+      left: 15px;
+    } 
+    .navi-responsive.navi-responsive.navi-responsive a{
+      padding: 10px 30px;
+    }
+    .navi-responsive.navi-responsive.navi-responsive li::before {
+      content: unset;
+    }
+    .book-detail.book-detail.book-detail{
+      padding-top: 25px;
+    }
+  }
+  
+  /* Portrait */
+  @media screen
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+   
+  }
+  
+  /* Landscape */
+  @media screen
+  and (device-width: 640px) 
+  and (device-height: 360px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+    .inner-page-heading.inner-page-heading.inner-page-heading {
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 25px;
+  } 
+  }

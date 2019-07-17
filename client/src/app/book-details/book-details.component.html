@@ -1,5 +1,5 @@
 <main class="main-content">
-    <div class="book-detail">
+    <div class="book-detail ">
         <div class="container">
             <div class="single-boook-detail">
                 <div class="row">
@@ -50,16 +50,18 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div id="yasr_visitor_votes_14108" class="yasr-visitor-votes">
+                                    <div id="yasr_visitor_votes_14108" class="yasr-visitor-votes vote-respon">
                                         <div id="yasr-visitor-votes-rater-0ad752b5a3d1e"
                                             class="yasr-rater-stars-visitor-votes star-rating" data-rater-postid="14108"
                                             data-rating="0" data-rater-starsize="24" data-rater-readonly="false"
-                                            data-rater-nonce="86feb2db6f" data-issingular="true"
-                                            style="width: 120px; height: 24px; background-size: 24px;">
+                                            data-rater-nonce="86feb2db6f" data-issingular="true" style="width: 120px; height: 24px; background-size: 24px;"
+                                            >
                                             <div class="star-value" style="background-size: 24px; width: 0%;"></div>
-                                        </div><span id="yasr-visitor-votes-container-after-stars-0ad752b5a3d1e"
-                                            class="yasr-visitor-votes-after-stars-class"><span
-                                                class="yasr-total-average-container" id="yasr-total-average-text_14108">
+                                        </div>
+                                        <span id="yasr-visitor-votes-container-after-stars-0ad752b5a3d1e"
+                                            class="yasr-visitor-votes-after-stars-class">
+                                            <span class="yasr-total-average-container"
+                                                id="yasr-total-average-text_14108">
                                                 [Total: 0 &nbsp; &nbsp;Average: 0/5] </span></span>
                                     </div>
                                 </li>
@@ -160,7 +162,7 @@
                                             <li><span>View: </span>37</li>
                                         </ul> -->
                                         <ul *ngFor="let info of detail">
-                                            <li><span>{{info.name}}</span>  {{info.value}}</li>
+                                            <li><span>{{info.name}}</span> {{info.value}}</li>
                                         </ul>
                                     </div>
                                     <div class="single-book-same">
@@ -185,7 +187,7 @@
                                     </div>
                                     <div class="single-book-tags">
                                         <h6>eBook Tags:</h6>
-                                        <ul class="single-book-tag" >
+                                        <ul class="single-book-tag">
                                             <li *ngFor="let i of bookTag"> #<a rel="tag" href="#">{{i}}</a></li>
                                             <!-- <li>#<a href="https://libit.io/tag/desktop" rel="tag">desktop</a></li>
                                             <li>#<a href="https://libit.io/tag/format" rel="tag">format</a></li>

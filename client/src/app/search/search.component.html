@@ -1,0 +1,99 @@
+<div class="parallax-window inner-banner tc-padding overlay-dark" data-parallax="scroll" data-image-src="img-09.jpg"
+    style="padding: 35px 0;">
+    <div class="container">
+        <div class="inner-page-heading h-white searh-heading">
+            <h2>eBook Library</h2>
+        </div>
+    </div>
+</div>
+<div class="parallax-mirror"
+    style="visibility: visible; z-index: -100; position: fixed; top: 143px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 258px; width: 1835px;">
+    <img class="parallax-slider" src="../../assets/image/img-09.jpg"
+        style="transform: translate3d(0px, 0px, 0px); position: absolute; top: -524.4px; left: 0px; height: 1192px; width: 1835px; max-width: none;"
+        scale="0">
+</div>
+<main class="main-content" style="background-color: white ">
+
+    <div class="tc-padding-less">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-6 col-xs-12">
+                    <div class="book-list-header">
+
+                        <h4 style="font-size: 18px">eBooks for keyword <span>mysql</span></h4>
+
+                    </div>
+
+                    <div id="filter-masonry" class="gallery-masonry">
+                        <div>
+                            <div>
+                                <div>
+                                    <div class="book-list-widget" *ngFor="let book of books">
+                                        <div class="book-list-detail">
+                                            <img src="../../assets/image/{{book.image}}" alt="MySQL Bible" width="160"
+                                                scale="0">
+                                            <div class="detail">
+                                                <span> by <a href="#" title="Steve Suehring">{{book.author}}</a></span>
+                                                <div class="book-name">
+                                                    <h5><a title="MySQL Bible" href="#">{{book.title}} </a></h5>
+                                                </div>
+                                                <p>{{book.content}}</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-xs-12">
+                    <div class="aside-widget middle">
+
+                        <h6>TOP <span>10</span> eBooks</h6>
+
+                        <ul class="top10book" *ngFor="let book of topbook">
+                            <li><a title="{{book.title}}" href="#">
+                                    <img width="100%" src="../../assets/image/{{book.image}}" alt="{{book.title}}">
+                                    <p>{{book.title}}</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <aside class="col-lg-3 col-md-4 col-xs-12">
+                    <div class="aside-widget">
+                        <h6>Subscribe via Email</h6>
+                        <form action="#" method="post">
+                            <div id="subscribe-text">
+                                <p>Enter your email address to subscribe and receive notifications of new book by email.
+                                </p>
+                            </div>
+                            <p>Join 1 other subscriber</p>
+                            <p id="subscribe-email">
+                                <label id="jetpack-subscribe-label" class="screen-reader-text"
+                                    for="subscribe-field-blog_subscription-2">
+                                    Email Address </label>
+                                <input type="email" name="email" required="required" class="required" value=""
+                                    id="subscribe-field-blog_subscription-2" placeholder="Email Address">
+                            </p>
+                            <p id="subscribe-submit"> 
+                                <button type="submit" name="jetpack_subscriptions_widget">
+                                    Subscribe </button>
+                            </p>
+                        </form>
+                    </div> 
+                    <div class="aside-widget">
+                            <h6 >Category</h6> 
+                                    <a *ngFor="let cato of catogary" href="{{cato.href}}" class="tag-cloud-link tag-link-191 tag-link-position-1" style="font-size: 14px;">
+                                        {{cato.title}} <span class="tag-link-count"> ({{cato.quantity}}) &nbsp;</span></a>
+                            <!-- aria-label="{{cato.title}} ({{cato.quantity}} items)"                        -->
+                    </div>  
+                </aside>
+            </div>
+        </div>
+    </div>
+</main>

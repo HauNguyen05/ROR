@@ -8,9 +8,9 @@ describe('HeaderComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
+      declarations: [HeaderComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
@@ -22,4 +22,19 @@ describe('HeaderComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  menuShow(){
+
+    const menu = document.getElementById("menu") as HTMLElement
+    const navMenu = document.getElementById('nav-menu') as HTMLElement
+
+    menu.addEventListener('click', () => {
+      console.log('ok')
+      if (navMenu.style.height == '0') {
+        navMenu.style.height = '100%'
+      } else {
+        navMenu.style.height = '0'
+      }
+    })
+  }
 });

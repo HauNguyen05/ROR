@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { BookDetailsComponent } from './book-details/book-details.component';
 import {UserformComponent} from './userform/userform.component';
+import { SearchComponent } from './search/search.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import {UserformComponent} from './userform/userform.component';
     HomeComponent,
     FooterComponent,
     BookDetailsComponent,
-    UserformComponent
+    UserformComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

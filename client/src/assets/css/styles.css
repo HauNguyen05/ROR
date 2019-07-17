@@ -2712,7 +2712,9 @@ ul{
 	background:rgba(0,0,0,.7)
 }
 .inner-page-heading{
-	text-align:center
+	text-align:center;
+	padding-top: 85px; 
+	padding-bottom: 200px;
 }
 .inner-page-heading h2{
 	margin:0;
@@ -4925,7 +4927,7 @@ ul li a.rsswidget img.rss-widget-icon{
 }
 .index-search{
 	background-color:#fff;
-	 padding:150px 0
+	 /* padding:130px 0 */
 }
 .index-search h2{
 	color:#ff851d;
@@ -5142,6 +5144,9 @@ input.paypal{
 	height:48px;
 	width:100px
 }
+.searh-heading.searh-heading{
+	padding-top: 45px;  padding-bottom: 100px
+}
 .inline{
 	display:inline-block
 }
@@ -5184,7 +5189,12 @@ div[class^=gr_custom_container]>div:last-child{
 	border-bottom:0 dashed transparent!important
 }
 div[class^=gr_custom_each_container]{
-	border-bottom:1px dashed #333!important
+    border-bottom: 1px dashed #333!important;
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding-bottom: 4px;
 }
 div[class^=gr_custom_author]{
 	color:#b5b5b5!important
@@ -5228,6 +5238,37 @@ div[class^=gr_custom_container] a:hover{
 #dates .selected::before,.add-cart a span,.address-column:hover .address-icon,.best-sellers-tabs .tabs-nav li.ui-tabs-active a,.btn-1,.disc-reviews-tabs .tabs-nav ul li.ui-tabs-active a,.filter-tags-holder ul li a.selected,.gallery-figure .overlay ul li a:hover,.nav-holder.style-2 .add-to-cart .btn-1 i em,.navigation ul li ul li a::before,.plus-icon,.pricing-slider .ui-slider .ui-slider-range,.product-cart-option li a:hover,.product-img .sale-bacth,.progress-rating .progress-bar,.s-product-hover ul li a:hover,.search-bar .sub-btn:hover,.service-column:hover .service-icon,.sidebar ul li.ui-state-active::before,.social-icons ul li a:hover,.tags-list li a:hover{
 	background:#ff851d
 }
-.add-cart-alert,.authors-filter ul li a.selected::before,.gallery-figure .overlay ul li a:hover,.navigation ul li a::before,.navigation ul li>ul,.pagination-holder ul li.active a,.sec-heading::before,.social-icons ul li a:hover,.tags-list li a:hover{
+.add-cart-alert,.authors-filter ul li a.selected::before,.gallery-figure .overlay ul li a:hover,.navigation ul li a::before,.navigation ul li>ul,
+.pagination-holder ul li.active a,.sec-heading::before,.social-icons ul li a:hover,.tags-list li a:hover{
 	border-color:#ff851d
 }
+div[class^=gr_custom_book_container]{
+	float:right;
+	overflow:hidden;
+	height:60px;
+	margin-left:4px;
+	width:39px
+}
+div[class^=gr_custom_rating]{
+	display:none
+} 
+.star-value::before{content:none!important}
+.star-rating{width:0;position:relative;display:inline-block;background-position:0 0;background-repeat:repeat-x;
+    background-image: url(../image/star_2.svg);
+}
+.sd-content ul {
+    padding: 0!important;
+    margin: 0 0 .5px 0!important;
+    list-style: none!important;
+}
+.sd-content ul li {
+    margin: 0 5px 5px 0;
+    padding: 0;
+}
+.sd-content ul li {
+    display: inline-block;
+}
+
+.yasr-total-average-container{
+	display: block!important;
+  }

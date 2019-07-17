@@ -2551,13 +2551,13 @@ div.jetpack-quiz pre{
 		background-size:16px 784px
 }
 }
-div[class^=gr_custom_container]{
+/* div[class^=gr_custom_container]{
 	border:1px solid gray;
 	border-radius:10px;
 	padding:10px 5px 10px 5px;
 	background-color:#fff;
 	color:#000
-}
+} */
 div[class^=gr_custom_container] a{
 	color:#000
 }
